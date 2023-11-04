@@ -1,0 +1,14 @@
+.flex-d {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.w-full {
+    width: 100%;
+}
+
+/* responsive image */
+.img-fluid{
+    width: 100%;
+    height: auto;
+}

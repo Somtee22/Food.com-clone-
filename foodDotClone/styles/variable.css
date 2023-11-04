@@ -1,0 +1,8 @@
+/* color palettes */
+:root {
+    --fd-primary: white;
+    --fd-secondary: black;
+    --default-spacing: 10px;
+    --default-btn: #f5ce35;
+    --links-color:  #1769c2;
+}

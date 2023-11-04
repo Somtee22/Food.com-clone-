@@ -1,0 +1,41 @@
+/* Import General styles */
+@import url('./styles/animation.css');
+@import url('./styles/media.css');
+@import url('./styles/pagesStyles/');
+@import url('./styles/utilities.css');
+@import url("./styles/variable.css");
+
+/* pages styles */
+
+/* home page */
+@import url('./styles/pagesStyles/home.css');
+
+
+/* Fonts */
+@font-face {
+    font-family: brandon;
+    src: url(./Assets/fonts/brandon-grotesque-light-58a8a4b38001d.otf) format('otf');
+}
+
+
+/* Reset */
+html {
+    font: 16px;
+}
+
+*, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: brandon;
+
+}
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
