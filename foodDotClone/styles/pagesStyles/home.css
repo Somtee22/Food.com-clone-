@@ -59,6 +59,7 @@ section.hero-section{
     background-size: cover;
     background-position: center center;
     position: relative;
+    margin-top: ;
 }
 .overlay{
     position: absolute;
@@ -104,13 +105,9 @@ button.see-all {
 .fresh-community {
     padding-top: 60px;
 }
-.fresh-header-wrapper h1 {
-    font-size: 32px;
-    line-height: 40px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 700;
-}
+
+
+
 .fresh-header-wrapper a {
     font-weight: 600;
     color: var(--links-color);
@@ -126,7 +123,119 @@ button.see-all {
     justify-content: space-between;
 }
 
+
+/* Item1 */
 .fresh-card1 {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 400px;
+    background-color: var(--fd-primary);
+    border-radius: var(--card-border-radius);
+    border: 1px solid rgb(227, 220, 220);
+    padding: 15px;
 }
+
+.user-details-header{
+    display: flex;
+}
+.avatar1 img{
+    border-radius: 50%;
+}
+.avatar2 img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.link1{
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1;
+    font-weight: 600;
+    margin-left: 10px;
+   
+   
+}
+.rating-wrapper{
+    margin: 10px 5px;
+}
+.rating-wrapper i{
+    color: var(--star-color);
+}
+.fresh-card1-body p{
+    color: var(--para-color);
+    font-size: 16px;
+    font-family: var(--fonts-base);
+    letter-spacing: 1px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.fresh-card1-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.fresh-card1-footer span{
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 900;
+    color: var(--para-color);
+}
+
+.fresh-card1-footer i{
+    color: var(--star-color);
+}
+
+
+/*  WHAT WE'RE CRAVING */
+.craving{
+   margin-top: var(--margin-top);
+}
+
+
+.craving-card1{
+    width: 400px;
+    height: 400px;
+    border-radius: var(--card-border-radius);
+    background-image:url('../../Assets/background/Collection1.webp');
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-size: cover;
+    position: relative;
+}
+.craving-card2{
+    width: 400px;
+    height: 400px;
+    border-radius: var(--card-border-radius);
+    background-image:url('../../Assets/background/collection2');
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-size: cover;
+    position: relative;
+}
+.craving-card3{
+    width: 400px;
+    height: 400px;
+    border-radius: var(--card-border-radius);
+    background-image:url('../../Assets/background/Collection3');
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-size: cover;
+    position: relative;
+}
+
+
+.craving-content {
+    position: relative;
+    z-index: 100;
+    color: var(--fd-primary);
+    position: relative;
+    top: 280px;
+    left: 12px;
+    padding: 0px 2px;
+}
+

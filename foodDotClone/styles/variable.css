@@ -5,4 +5,11 @@
     --default-spacing: 10px;
     --default-btn: #f5ce35;
     --links-color:  #1769c2;
+    --star-color: #903030;
+    --para-color: #666;
+    --card-border-radius: 4px;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-heading: brandon-grotesque, "Helvetica Neue",
+     Helvetica, arial, sans-serif;
+    --margin-top: 45px;
 }
