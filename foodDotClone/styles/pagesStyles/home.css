@@ -108,14 +108,14 @@ button.see-all {
 
 
 
-.fresh-header-wrapper a {
+/* .fresh-header-wrapper a {
     font-weight: 600;
     color: var(--links-color);
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0;
     text-decoration: none;
-}
+} */
 .fresh-header-wrapper {
     display: flex;
     flex-direction: row;
@@ -239,3 +239,171 @@ button.see-all {
     padding: 0px 2px;
 }
 
+/* EXPLORE SECTION */
+.explore-wrapper{
+    margin-top: var(--margin-top);
+}
+
+.explore-container{
+    padding-top: var(--margin-top);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 48px;
+    
+
+}
+
+.explore1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: calc((100% - (48px * 5)) / 6);
+    height: fit-content;
+    gap: 10px;
+
+}
+
+.explore1 a{
+    font-family: var(--fonts-heading);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--para-color);
+    text-align: center;
+}
+
+section.explore img{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+}
+
+/* TRENDING */ 
+.trending-wrapper{
+    margin-top: var(--margin-top);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+section .trending1 img{
+    height: 200px;
+    width: 280px;
+}
+
+.trending-container{
+    padding-top: var(--margin-top);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* MISS */
+.miss-wrapper{
+    margin-top: var(--margin-top);
+
+}
+.miss-container{
+    padding-top: var(--margin-top);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.miss1{
+    width: 400px;
+    height: 400px;
+    border-radius: var(--card-border-radius);
+    background-image:url('../../Assets/background/52-creative.webp');
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-size: cover;
+    position: relative;
+}
+
+.miss2{
+    width: 400px;
+    height: 400px;
+    border-radius: var(--card-border-radius);
+    background-image:url('../../Assets/background/45-sweet');
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-size: cover;
+    position: relative;
+}
+
+.miss3{
+    width: 400px;
+    height: 400px;
+    border-radius: var(--card-border-radius);
+    background-image:url('../../Assets/background/collection6');
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-size: cover;
+    position: relative;
+}
+/* More */
+.more-wrapper{
+    margin-top: var(--margin-top);
+    display: flex;
+    justify-content: space-between;
+}
+
+section .more1 img{
+    height: 200px;
+    width: 280px;
+}
+.more-container{
+    padding-top: var(--margin-top);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* seed */
+
+.seed-container{
+    width: 100%;
+    height: 500px;
+    background: var(--fd-primary);
+    margin-top: var(--margin-top);
+    border: 1px solid rgb(227, 220, 220);
+    border-radius: var(--card-border-radius);
+    display: flex;
+}
+
+.seed-container img{
+    width: 800px;
+    height: 500px;
+}
+
+.seed-content{
+    width: calc(100% - 800px);
+    padding: 48px;
+    gap: 16px;
+}
+h5{
+    margin-bottom: 15px;
+    font-family: var(--fonts-base);
+}
+
+/* Fans favorite */
+.fan-wrapper{
+    margin-top: var(--margin-top);
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .fan-container{
+    padding-top: var(--margin-top);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
