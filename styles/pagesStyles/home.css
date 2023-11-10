@@ -47,7 +47,7 @@ ul.nav {
 /* header end*/
 
 main {
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     padding: 40px 120px;
 }
 /* Hero section */
@@ -400,10 +400,10 @@ h5{
     justify-content: space-between;
 }
 
-/* .fan-container{
-    padding-top: var(--margin-top);
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-} */
+
+/* Recipes */
+
+.Recipes{
+    height: 250px;
+    background-color: #f2f2f2;
+}
