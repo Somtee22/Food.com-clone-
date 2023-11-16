@@ -102,7 +102,12 @@
     justify-content: space-between;
 }
     
-
+.a-color{
+    font-size: 12px;
+    color: var(--fd-primary);
+    font-family: var(--fonts-base);
+  
+}
 
 
 

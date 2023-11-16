@@ -1,517 +1,491 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- SEO Meta tags-->
-    <meta
-      name="description"
-      content="Explore a world of delicious culinary creations on our food website. Discover recipes, cooking tips, restaurant recommendations, and more to satisfy your taste buds."
-    />
-    <meta
-      name="keywords"
-      content="food website, recipes, cooking tips, restaurant recommendations, culinary creations, delicious dishes, gourmet cuisine"
-    />
-    <meta name="robots" content="index, follow" />
-    <title>Food.com - Recipes, Food Ideas and Videos</title>
-    <!-- Favicon -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./public/favicon_io/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./public/favicon_io/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./public/favicon_io/favicon-16x16.png"
-    />
-    <link rel="manifest" href="/site.webmanifest" />
-    <!-- Icons font awesome-->
-    <link rel="stylesheet" href="./Assets/icons/fontawesome/css/all.min.css" />
-    <!-- styles -->
-    <link rel="stylesheet" href="index.css" />
-    <!-- scripts -->
-    <!-- Others -->
-  </head>
-  <body>
-    <!-- header  -->
 
-    <header class="w-full">
-      <div class="logo-navs">
-        <!-- logo -->
-        <div id="logoId" class="logo">
-          <img src="./public/Logo/logo.svg" alt="logo" class="img-fluid" />
-        </div>
-        <!-- navigations -->
-        <nav>
-          <ul class="nav">
-            <li>RECIPES</li>
-            <li>POPULAR</li>
-            <li>MEAT AND SEAFOOD</li>
-            <li>HEALTH & DIET</li>
-            <li>HOLIDAYS</li>
-            <li>CUISINE</li>
-            <li>SEASONAL</li>
-          </ul>
-        </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- SEO Meta tags-->
+  <meta name="description"
+    content="Explore a world of delicious culinary creations on our food website. Discover recipes, cooking tips, restaurant recommendations, and more to satisfy your taste buds." />
+  <meta name="keywords"
+    content="food website, recipes, cooking tips, restaurant recommendations, culinary creations, delicious dishes, gourmet cuisine" />
+  <meta name="robots" content="index, follow" />
+  <title>Food.com - Recipes, Food Ideas and Videos</title>
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./public/favicon_io/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./public/favicon_io/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./public/favicon_io/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <!-- Icons font awesome-->
+  <link rel="stylesheet" href="./Assets/icons/fontawesome/css/all.min.css" />
+  <!-- styles -->
+  <link rel="stylesheet" href="index.css" />
+  <!-- scripts -->
+  <!-- Others -->
+</head>
+
+<body>
+  <!-- header  -->
+
+  <header class="w-full">
+    <div class="logo-navs">
+      <!-- logo -->
+      <div id="logoId" class="logo">
+        <img src="./public/Logo/logo.svg" alt="logo" class="img-fluid" />
       </div>
-      <!-- icons -->
-      <div class="icons-container">
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <i class="fa-sharp fa-solid fa-bookmark"></i>
-        <i class="fa-solid fa-user"></i>
-      </div>
-    </header>
-
-    <main class="w-full">
-      <!-- Hero section -->
-      <section class="hero-section w-full">
-        <div class="overlay"></div>
-        <div class="hero-content">
-          <h1>TOP 100 COMFORT FOOD RECIPES</h1>
-          <button type="button" class="see-all">SEE THEM ALL</button>
-        </div>
-      </section>
-      <!-- community section -->
-      <section class="fresh-community">
-        <div class="fresh-header-wrapper">
-          <h1 class="heading1">FRESH FROM OUR COMMUNITY</h1>
-          <a href="https://food.com/activities" class="links">View all</a>
-        </div>
-        <div class="card-container">
-          <!-- items -->
-          <div class="fresh-card1">
-            <div class="fresh-card1-header">
-              <div class="user-details-header">
-                <div class="avatar1">
-                  <img src="./Assets/background/Clever" alt="Clever" />
-                </div>
-                <div class="link1">
-                  <a href="">Barbara K.</a>
-                  <span>asked a question about</span>
-                  <a href=""> Coco Lopez Pina Colada Cake</a>
-                </div>
-              </div>
-              <div class="rating-wrapper">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-              </div>
-              <div class="fresh-card1-body">
-                <p>
-                  I had one simular to this on,but I was sure it had pineapple
-                  in it. Does anyone remember that?It also called for coco lopez
-                  mix
-                </p>
-              </div>
-            </div>
-            <div class="fresh-card1-footer">
-              <div>
-                <span>9 MINUTES AGO</span>
-              </div>
-              <div>
-                <span>REPLY</span>
-                <i class="fa-regular fa-heart"></i>
-              </div>
-            </div>
-          </div>
-
-          <!-- Item2 -->
-          <div class="fresh-card1">
-            <div class="fresh-card1-header">
-              <div class="user-details-header">
-                <div class="avatar2">
-                  <img src="./Assets/background/Anonymous1" alt="Anonymous" />
-                </div>
-                <div class="link1">
-                  <a href="">Anonymous</a>
-                  <span>asked a question about</span>
-                  <a href=""> Grandma Maroni's Meatballs...</a>
-                </div>
-              </div>
-              <div class="rating-wrapper">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-              </div>
-              <div class="fresh-card1-body">
-                <p>how can this make 40 meatballs? Thats what it says?</p>
-              </div>
-            </div>
-            <div class="fresh-card1-footer">
-              <div>
-                <span>AN HOUR AGO</span>
-              </div>
-              <div>
-                <span>REPLY</span>
-                <i class="fa-regular fa-heart"></i>
-              </div>
-            </div>
-          </div>
-
-          <!-- Item3 -->
-          <div class="fresh-card1">
-            <div class="fresh-card1-header">
-              <div class="user-details-header">
-                <div class="avatar1">
-                  <img src="./Assets/background/duonyte" alt="duonyte" />
-                </div>
-                <div class="link1">
-                  <a href="">duonyte</a>
-                  <span>tweaked</span>
-                  <a href="">Nanas Portuguese Potatoes</a>
-                </div>
-              </div>
-              <div class="rating-wrapper">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-              </div>
-              <div class="fresh-card1-body">
-                <p>
-                  I used ham instead of sausage. Mixed water, vinegar, salt and
-                  paprika together in a cup and poured it over the rest. Added
-                  more parsley after it was done.
-                </p>
-              </div>
-            </div>
-            <div class="fresh-card1-footer">
-              <div>
-                <span>19 HOURS AGO</span>
-              </div>
-              <div>
-                <span>REPLY</span>
-                <i class="fa-regular fa-heart"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- WHAT WE'RE CRAVING -->
-      <section class="craving w-full">
-        <div class="craving-wrapper">
-          <h1 class="heading1">WHAT WE'RE CRAVING</h1>
-        </div>
-        <div class="card-container">
-          <!-- Item1 -->
-          <div class="craving-card1">
-            <div class="overlay2"></div>
-            <div class="craving-content">
-              <h5 class="heading5">COLLECTION</h5>
-              <p class="paragraph">24 Freezer-Friendly Meals</p>
-            </div>
-          </div>
-
-          <!-- item2 -->
-          <div class="craving-card2">
-            <div class="overlay2"></div>
-            <div class="craving-content">
-              <h5 class="heading5">COLLECTION</h5>
-              <p class="paragraph">50 Lunch Ideas for Kids</p>
-            </div>
-          </div>
-          <!--item3  -->
-          <div class="craving-card3">
-            <div class="overlay2"></div>
-            <div class="craving-content">
-              <h5 class="heading5">COLLECTION</h5>
-              <p class="paragraph">35 Slow-Cooker Soups & Stews</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- EXPLORE -->
-      <section class="explore w-full">
-        <div class="explore-wrapper">
-          <h1 class="heading1">EXPLORE MORE</h1>
-        </div>
-        <div class="explore-container">
-          <!-- Item1 -->
-          <div class="explore1">
-            <img src="./Assets/background/comfort-food" alt="comfort" />
-            <a href="">COMFORT FOOD CLASSICS</a>
-          </div>
-          <!-- item2 -->
-          <div class="explore1">
-            <img
-              src="./Assets/background/international.webp"
-              alt="international"
-            />
-            <a href="">INTERNATIONAL EATS</a>
-          </div>
-          <!-- item3 -->
-          <div class="explore1">
-            <img src="./Assets/background/Breakfast" alt="Breakfast" />
-            <a href="">BREAKFAST & BRUNCH</a>
-          </div>
-          <!-- item4 -->
-          <div class="explore1">
-            <img
-              src="./Assets/background/Communitypicks.webp"
-              alt="community"
-            />
-            <a href="">COMMUNITY PICKS</a>
-          </div>
-          <!-- item5 -->
-          <div class="explore1">
-            <img
-              src="./Assets/background/Quick-and-easy"
-              alt="Quick-and-easy"
-            />
-            <a href="">QUICK & EASY</a>
-          </div>
-          <!-- item6 -->
-          <div class="explore1">
-            <img src="./Assets/background/Copycat" alt="copycat" />
-            <a href="">COPYCAT RECIPES</a>
-          </div>
-        </div>
-      </section>
-
-      <!-- TRENDING NOW -->
-      <section class="trending w-full">
-        <div class="trending-wrapper">
-          <h1 class="heading1">TRENDING NOW</h1>
-          <a href="https://food.com/recipes/all/trending" class="links"
-            >View all</a
-          >
-        </div>
-        <div class="trending-container">
-          <!-- item1 -->
-          <div class="trending1 general">
-            <img src="./Assets/background/The-ultmate" alt="ultimate" />
-            <h3 class="heading3">The Ultimate Chocolate Brownie Muffins</h3>
-          </div>
-          <!-- item2 -->
-          <div class="trending1 general">
-            <img src="./Assets/background/old-fashioned" alt="fashioned" />
-            <h3 class="heading3">Old-Fashioned Vegetable Beef Soup</h3>
-          </div>
-          <!-- item3 -->
-          <div class="trending1 general">
-            <img src="./Assets/background/creamy-macaroni" alt="macaroni" />
-            <h3 class="heading3">Creamy Macaroni and Cheese</h3>
-          </div>
-          <!-- item4 -->
-          <div class="trending1 general">
-            <img src="./Assets/background/ooey" alt="ooey" />
-            <h3 class="heading3">Ooey Gooey Cinnamon Rolls</h3>
-          </div>
-        </div>
-      </section>
-
-      <!-- DON'T MISS -->
-      <section class="miss w-full">
-        <div class="miss-wrapper">
-          <h1 class="heading1">DON'T MISS</h1>
-        </div>
-        <div class="miss-container">
-          <!-- item1 -->
-          <div class="miss1">
-            <div class="overlay2"></div>
-            <div class="craving-content">
-              <h5 class="heading5">COLLECTION</h5>
-              <p class="paragraph">52 Creative Eggplant Recipes..</p>
-            </div>
-          </div>
-          <!-- item2 -->
-          <div class="miss2">
-            <div class="overlay2"></div>
-            <div class="craving-content">
-              <h5 class="heading5">COLLECTION</h5>
-              <p class="paragraph">45 Sweet &amp; Savory Pumpkin Recipes t..</p>
-            </div>
-          </div>
-
-          <!-- item3 -->
-          <div class="miss3">
-            <div class="overlay2"></div>
-            <div class="craving-content">
-              <h5 class="heading5">COLLECTION</h5>
-              <p class="paragraph">Seasonal Eats: Squash, 14 Ways</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- more ideas -->
-      <section class="more-ideas w-full">
-        <div class="more-wrapper">
-          <h1 class="heading1">MORE IDEAS</h1>
-          <a href="" class="links">View all</a>
-        </div>
-        <div class="more-container">
-          <!-- item1 -->
-          <div class="more1 general">
-            <img src="./Assets/background/chicken-tikka.webp" alt="chicken" />
-            <h3 class="heading3">chicken tikka masala</h3>
-          </div>
-          <!-- item2 -->
-          <div class="more1 general">
-            <img src="./Assets/background/Vegan.webp" alt="vegan" />
-            <h3 class="heading3">vegan bacon</h3>
-          </div>
-          <!-- item3 -->
-          <div class="more1 general">
-            <img src="./Assets/background/Mcdonalds.webp" alt="mcdonalds" />
-            <h3 class="heading3">Copycat McDonald's Big Mac Sauce</h3>
-          </div>
-          <!-- item4 -->
-          <div class="more1 general">
-            <img src="./Assets/background/Crock.webp" alt="crock" />
-            <h3 class="heading3">crock-pot beef roast</h3>
-          </div>
-        </div>
-      </section>
-
-      <!-- PUMPKIN SEED -->
-      <section class="pumpkin-seed w-full">
-        <div class="seed-container">
-          <div>
-            <img src="./Assets/background/Pumpkin-seed.webp" alt="seed" />
-          </div>
-          <div class="seed-content">
-            <h5>ARTICLE</h5>
-            <h1 class="heading1">how to roast pumpkin seeds</h1>
-          </div>
-        </div>
-      </section>
-
-      <!-- FANS FAVORITE -->
-      <section class="fans-favorite">
-        <div class="fan-wrapper">
-          <h1 class="heading1">FAN'S FAVORITE</h1>
-          <a href="" class="links">View all</a>
-        </div>
-        <div class="fan-container">
-          <!-- section1 -->
-          <!-- item1 -->
-          <div class="more1 general">
-            <img src="./Assets/background/Oven-baked.webp" alt="oven" />
-            <h3 class="heading3">oven bakes ribs</h3>
-          </div>
-          <!-- item2 -->
-          <div class="more1 general">
-            <img src="./Assets/background/Mozzarella.webp" alt="mozzarella"/>
-            <h3 class="heading3">mozzarella sticks</h3>
-          </div>
-          <!-- item3 -->
-          <div class="more1 general">
-            <img src="./Assets/background/Turkey.webp" alt="turkey" />
-            <h3 class="heading3">turkey meatloaf</h3>
-          </div>
-          <!-- item4 -->
-          <div class="more1 general">
-            <img src="./Assets/background/Mashed-potato.webp" alt="potato" />
-            <h3 class="heading3">left over mashed potato pancakes</h3>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="fan-container">
-          <!-- section2 -->
-          <div class="more1 general">
-            <img src="./Assets/background/Sea-bass.webp" alt="sea" />
-            <h3 class="heading3">simple oven-baked sea bass</h3>
-          </div>
-          <!-- item2 -->
-          <div class="more1 general">
-            <img src="./Assets/background/Brocolli.webp" alt="broccoli"/>
-            <h3 class="heading3">beef and broccoli stir fry</h3>
-          </div>
-          <!-- item3 -->
-          <div class="more1 general">
-            <img src="./Assets/background/Fatijas.webp" alt="fajitas" />
-            <h3 class="heading3">fajitas</h3>
-          </div>
-          <!-- item4 -->
-          <div class="more1 general">
-            <img src="./Assets/background/Whipped-cream.webp" alt="cream" />
-            <h3 class="heading3">Whipped cream frosting</h3>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div class="fan-container">
-          <!-- section3 -->
-          <div class="more1 general">
-            <img src="./Assets/background/Teriyaka.webp" alt="teriyaki" />
-            <h3 class="heading3">restaurant teriyaki sauce</h3>
-          </div>
-          <!-- item2 -->
-          <div class="more1 general">
-            <img src="./Assets/background/Skyline.webp" alt="skyline"/>
-            <h3 class="heading3">skyline chili</h3>
-          </div>
-          <!-- item3 -->
-          <div class="more1 general">
-            <img src="./Assets/background/Banana-bread.webp" alt="banana" />
-            <h3 class="heading3">banana nut bread</h3>
-          </div>
-          <!-- item4 -->
-          <div class="more1 general">
-            <img src="./Assets/background/Winning-chili.webp" alt="chili" />
-            <h3 class="heading3">award winnning chili</h3>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="fan-container">
-          <!-- section4 -->
-          <div class="more1 general">
-            <img src="./Assets/background/Belgian.webp" alt="waffles" />
-            <h3 class="heading3">the best belgan waffles</h3>
-          </div>
-          <!-- item2 -->
-          <div class="more1 general">
-            <img src="./Assets/background/Broiled-steak.webp" alt="steak"/>
-            <h3 class="heading3">broiles steak</h3>
-          </div>
-          <!-- item3 -->
-          <div class="more1 general">
-            <img src="./Assets/background/Chicken-wings.webp" alt="wings" />
-            <h3 class="heading3">oven crisp chicken wing</h3>
-          </div>
-          <!-- item4 -->
-          <div class="more1 general">
-            <img src="./Assets/background/Rump-roast.webp" alt="rump" />
-            <h3 class="heading3">perfect rump roast</h3>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <section class="semi-footer w-full">
-      <div class=" Recipes w-full">
-      <h3 class="heading3">FIND MORE RECIPES</h3>
-      <div class="search">  
-      <input type="text" placeholder="I'm craving..."></input>
+      <!-- navigations -->
+      <nav>
+        <ul class="nav">
+          <li>RECIPES</li>
+          <li>POPULAR</li>
+          <li>MEAT AND SEAFOOD</li>
+          <li>HEALTH & DIET</li>
+          <li>HOLIDAYS</li>
+          <li>CUISINE</li>
+          <li>SEASONAL</li>
+        </ul>
+      </nav>
+    </div>
+    <!-- icons -->
+    <div class="icons-container">
       <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-sharp fa-solid fa-bookmark"></i>
+      <i class="fa-solid fa-user"></i>
+    </div>
+  </header>
+
+  <main class="w-full">
+    <!-- Hero section -->
+    <section class="hero-section w-full">
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <h1>TOP 100 COMFORT FOOD RECIPES</h1>
+        <button type="button" class="see-all">SEE THEM ALL</button>
       </div>
-      <button class="btn">Search</button>
-       </div>
+    </section>
+    <!-- community section -->
+    <section class="fresh-community">
+      <div class="fresh-header-wrapper">
+        <h1 class="heading1">FRESH FROM OUR COMMUNITY</h1>
+        <a href="https://food.com/activities" class="links">View all</a>
+      </div>
+      <div class="card-container">
+        <!-- items -->
+        <div class="fresh-card1">
+          <div class="fresh-card1-header">
+            <div class="user-details-header">
+              <div class="avatar1">
+                <img src="./Assets/background/Clever" alt="Clever" />
+              </div>
+              <div class="link1">
+                <a href="">Barbara K.</a>
+                <span>asked a question about</span>
+                <a href=""> Coco Lopez Pina Colada Cake</a>
+              </div>
+            </div>
+            <div class="rating-wrapper">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <div class="fresh-card1-body">
+              <p>
+                I had one simular to this on,but I was sure it had pineapple
+                in it. Does anyone remember that?It also called for coco lopez
+                mix
+              </p>
+            </div>
+          </div>
+          <div class="fresh-card1-footer">
+            <div>
+              <span>9 MINUTES AGO</span>
+            </div>
+            <div>
+              <span>REPLY</span>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item2 -->
+        <div class="fresh-card1">
+          <div class="fresh-card1-header">
+            <div class="user-details-header">
+              <div class="avatar2">
+                <img src="./Assets/background/Anonymous1" alt="Anonymous" />
+              </div>
+              <div class="link1">
+                <a href="">Anonymous</a>
+                <span>asked a question about</span>
+                <a href=""> Grandma Maroni's Meatballs...</a>
+              </div>
+            </div>
+            <div class="rating-wrapper">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <div class="fresh-card1-body">
+              <p>how can this make 40 meatballs? Thats what it says?</p>
+            </div>
+          </div>
+          <div class="fresh-card1-footer">
+            <div>
+              <span>AN HOUR AGO</span>
+            </div>
+            <div>
+              <span>REPLY</span>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item3 -->
+        <div class="fresh-card1">
+          <div class="fresh-card1-header">
+            <div class="user-details-header">
+              <div class="avatar1">
+                <img src="./Assets/background/duonyte" alt="duonyte" />
+              </div>
+              <div class="link1">
+                <a href="">duonyte</a>
+                <span>tweaked</span>
+                <a href="">Nanas Portuguese Potatoes</a>
+              </div>
+            </div>
+            <div class="rating-wrapper">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <div class="fresh-card1-body">
+              <p>
+                I used ham instead of sausage. Mixed water, vinegar, salt and
+                paprika together in a cup and poured it over the rest. Added
+                more parsley after it was done.
+              </p>
+            </div>
+          </div>
+          <div class="fresh-card1-footer">
+            <div>
+              <span>19 HOURS AGO</span>
+            </div>
+            <div>
+              <span>REPLY</span>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- WHAT WE'RE CRAVING -->
+    <section class="craving w-full">
+      <div class="craving-wrapper">
+        <h1 class="heading1">WHAT WE'RE CRAVING</h1>
+      </div>
+      <div class="card-container">
+        <!-- Item1 -->
+        <div class="craving-card1">
+          <div class="overlay2"></div>
+          <div class="craving-content">
+            <h5 class="heading5">COLLECTION</h5>
+            <p class="paragraph">24 Freezer-Friendly Meals</p>
+          </div>
+        </div>
+
+        <!-- item2 -->
+        <div class="craving-card2">
+          <div class="overlay2"></div>
+          <div class="craving-content">
+            <h5 class="heading5">COLLECTION</h5>
+            <p class="paragraph">50 Lunch Ideas for Kids</p>
+          </div>
+        </div>
+        <!--item3  -->
+        <div class="craving-card3">
+          <div class="overlay2"></div>
+          <div class="craving-content">
+            <h5 class="heading5">COLLECTION</h5>
+            <p class="paragraph">35 Slow-Cooker Soups & Stews</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- EXPLORE -->
+    <section class="explore w-full">
+      <div class="explore-wrapper">
+        <h1 class="heading1">EXPLORE MORE</h1>
+      </div>
+      <div class="explore-container">
+        <!-- Item1 -->
+        <div class="explore1">
+          <img src="./Assets/background/comfort-food" alt="comfort" />
+          <a href="">COMFORT FOOD CLASSICS</a>
+        </div>
+        <!-- item2 -->
+        <div class="explore1">
+          <img src="./Assets/background/international.webp" alt="international" />
+          <a href="">INTERNATIONAL EATS</a>
+        </div>
+        <!-- item3 -->
+        <div class="explore1">
+          <img src="./Assets/background/Breakfast" alt="Breakfast" />
+          <a href="">BREAKFAST & BRUNCH</a>
+        </div>
+        <!-- item4 -->
+        <div class="explore1">
+          <img src="./Assets/background/Communitypicks.webp" alt="community" />
+          <a href="">COMMUNITY PICKS</a>
+        </div>
+        <!-- item5 -->
+        <div class="explore1">
+          <img src="./Assets/background/Quick-and-easy" alt="Quick-and-easy" />
+          <a href="">QUICK & EASY</a>
+        </div>
+        <!-- item6 -->
+        <div class="explore1">
+          <img src="./Assets/background/Copycat" alt="copycat" />
+          <a href="">COPYCAT RECIPES</a>
+        </div>
+      </div>
     </section>
 
-    <footer class="footer w-full">
-      <!-- footer1 -->
-      <div class="socials-container">
+    <!-- TRENDING NOW -->
+    <section class="trending w-full">
+      <div class="trending-wrapper">
+        <h1 class="heading1">TRENDING NOW</h1>
+        <a href="https://food.com/recipes/all/trending" class="links">View all</a>
+      </div>
+      <div class="trending-container">
+        <!-- item1 -->
+        <div class="trending1 general">
+          <img src="./Assets/background/The-ultmate" alt="ultimate" />
+          <h3 class="heading3">The Ultimate Chocolate Brownie Muffins</h3>
+        </div>
+        <!-- item2 -->
+        <div class="trending1 general">
+          <img src="./Assets/background/old-fashioned" alt="fashioned" />
+          <h3 class="heading3">Old-Fashioned Vegetable Beef Soup</h3>
+        </div>
+        <!-- item3 -->
+        <div class="trending1 general">
+          <img src="./Assets/background/creamy-macaroni" alt="macaroni" />
+          <h3 class="heading3">Creamy Macaroni and Cheese</h3>
+        </div>
+        <!-- item4 -->
+        <div class="trending1 general">
+          <img src="./Assets/background/ooey" alt="ooey" />
+          <h3 class="heading3">Ooey Gooey Cinnamon Rolls</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- DON'T MISS -->
+    <section class="miss w-full">
+      <div class="miss-wrapper">
+        <h1 class="heading1">DON'T MISS</h1>
+      </div>
+      <div class="miss-container">
+        <!-- item1 -->
+        <div class="miss1">
+          <div class="overlay2"></div>
+          <div class="craving-content">
+            <h5 class="heading5">COLLECTION</h5>
+            <p class="paragraph">52 Creative Eggplant Recipes..</p>
+          </div>
+        </div>
+        <!-- item2 -->
+        <div class="miss2">
+          <div class="overlay2"></div>
+          <div class="craving-content">
+            <h5 class="heading5">COLLECTION</h5>
+            <p class="paragraph">45 Sweet &amp; Savory Pumpkin Recipes t..</p>
+          </div>
+        </div>
+
+        <!-- item3 -->
+        <div class="miss3">
+          <div class="overlay2"></div>
+          <div class="craving-content">
+            <h5 class="heading5">COLLECTION</h5>
+            <p class="paragraph">Seasonal Eats: Squash, 14 Ways</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- more ideas -->
+    <section class="more-ideas w-full">
+      <div class="more-wrapper">
+        <h1 class="heading1">MORE IDEAS</h1>
+        <a href="" class="links">View all</a>
+      </div>
+      <div class="more-container">
+        <!-- item1 -->
+        <div class="more1 general">
+          <img src="./Assets/background/chicken-tikka.webp" alt="chicken" />
+          <h3 class="heading3">chicken tikka masala</h3>
+        </div>
+        <!-- item2 -->
+        <div class="more1 general">
+          <img src="./Assets/background/Vegan.webp" alt="vegan" />
+          <h3 class="heading3">vegan bacon</h3>
+        </div>
+        <!-- item3 -->
+        <div class="more1 general">
+          <img src="./Assets/background/Mcdonalds.webp" alt="mcdonalds" />
+          <h3 class="heading3">Copycat McDonald's Big Mac Sauce</h3>
+        </div>
+        <!-- item4 -->
+        <div class="more1 general">
+          <img src="./Assets/background/Crock.webp" alt="crock" />
+          <h3 class="heading3">crock-pot beef roast</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- PUMPKIN SEED -->
+    <section class="pumpkin-seed w-full">
+      <div class="seed-container">
+        <div>
+          <img src="./Assets/background/Pumpkin-seed.webp" alt="seed" />
+        </div>
+        <div class="seed-content">
+          <h5>ARTICLE</h5>
+          <h1 class="heading1">how to roast pumpkin seeds</h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- FANS FAVORITE -->
+    <section class="fans-favorite">
+      <div class="fan-wrapper">
+        <h1 class="heading1">FAN'S FAVORITE</h1>
+        <a href="" class="links">View all</a>
+      </div>
+      <div class="fan-container">
+        <!-- section1 -->
+        <!-- item1 -->
+        <div class="more1 general">
+          <img src="./Assets/background/Oven-baked.webp" alt="oven" />
+          <h3 class="heading3">oven bakes ribs</h3>
+        </div>
+        <!-- item2 -->
+        <div class="more1 general">
+          <img src="./Assets/background/Mozzarella.webp" alt="mozzarella" />
+          <h3 class="heading3">mozzarella sticks</h3>
+        </div>
+        <!-- item3 -->
+        <div class="more1 general">
+          <img src="./Assets/background/Turkey.webp" alt="turkey" />
+          <h3 class="heading3">turkey meatloaf</h3>
+        </div>
+        <!-- item4 -->
+        <div class="more1 general">
+          <img src="./Assets/background/Mashed-potato.webp" alt="potato" />
+          <h3 class="heading3">left over mashed potato pancakes</h3>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="fan-container">
+        <!-- section2 -->
+        <div class="more1 general">
+          <img src="./Assets/background/Sea-bass.webp" alt="sea" />
+          <h3 class="heading3">simple oven-baked sea bass</h3>
+        </div>
+        <!-- item2 -->
+        <div class="more1 general">
+          <img src="./Assets/background/Brocolli.webp" alt="broccoli" />
+          <h3 class="heading3">beef and broccoli stir fry</h3>
+        </div>
+        <!-- item3 -->
+        <div class="more1 general">
+          <img src="./Assets/background/Fatijas.webp" alt="fajitas" />
+          <h3 class="heading3">fajitas</h3>
+        </div>
+        <!-- item4 -->
+        <div class="more1 general">
+          <img src="./Assets/background/Whipped-cream.webp" alt="cream" />
+          <h3 class="heading3">Whipped cream frosting</h3>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="fan-container">
+        <!-- section3 -->
+        <div class="more1 general">
+          <img src="./Assets/background/Teriyaka.webp" alt="teriyaki" />
+          <h3 class="heading3">restaurant teriyaki sauce</h3>
+        </div>
+        <!-- item2 -->
+        <div class="more1 general">
+          <img src="./Assets/background/Skyline.webp" alt="skyline" />
+          <h3 class="heading3">skyline chili</h3>
+        </div>
+        <!-- item3 -->
+        <div class="more1 general">
+          <img src="./Assets/background/Banana-bread.webp" alt="banana" />
+          <h3 class="heading3">banana nut bread</h3>
+        </div>
+        <!-- item4 -->
+        <div class="more1 general">
+          <img src="./Assets/background/Winning-chili.webp" alt="chili" />
+          <h3 class="heading3">award winnning chili</h3>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="fan-container">
+        <!-- section4 -->
+        <div class="more1 general">
+          <img src="./Assets/background/Belgian.webp" alt="waffles" />
+          <h3 class="heading3">the best belgan waffles</h3>
+        </div>
+        <!-- item2 -->
+        <div class="more1 general">
+          <img src="./Assets/background/Broiled-steak.webp" alt="steak" />
+          <h3 class="heading3">broiles steak</h3>
+        </div>
+        <!-- item3 -->
+        <div class="more1 general">
+          <img src="./Assets/background/Chicken-wings.webp" alt="wings" />
+          <h3 class="heading3">oven crisp chicken wing</h3>
+        </div>
+        <!-- item4 -->
+        <div class="more1 general">
+          <img src="./Assets/background/Rump-roast.webp" alt="rump" />
+          <h3 class="heading3">perfect rump roast</h3>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="semi-footer w-full">
+    <div class=" Recipes w-full">
+      <h3 class="heading3">FIND MORE RECIPES</h3>
+      <div class="search">
+        <input type="text" placeholder="I'm craving..."></input>
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <button class="btn">Search</button>
+    </div>
+  </section>
+
+  <footer class="footer w-full">
+    <!-- footer1 -->
+    <div class="socials-container">
+      <div class="social-wrapper">
         <div class="top-social">
-          <div class="social-media">
+          <div class="social-media a-color">
             <i class="fa-brands fa-facebook"></i>
             <i class="fa-brands fa-instagram"></i>
             <i class="fa-brands fa-pinterest"></i>
@@ -519,22 +493,55 @@
             <i class="fa-brands fa-square-youtube"></i>
             <i class="fa-regular fa-envelope"></i>
           </div>
-          
           <div class="top">
             <i class="fa-solid fa-arrow-up"></i>
+            <p>BACK TO TOP</p>
           </div>
-
-
         </div>
 
-
+        <div class="media">
+          <a class="a-color" href="https://www.food.com/topic" target="_blank">All Categories</a>
+          <a class="a-color" href="https://www.food.com/html-sitemap" target="_blank">Site Map </a>
+          <a class="a-color" href="https://www.food.com/how-to/about-us-31" target="_blank">About Us</a>
+          <a class="a-color" href="https://food.zendesk.com/" target="_blank">Help</a>
+        </div>
       </div>
       <!-- footer2 -->
-      <div>
-        
-      </div>
-      
+      <div class="discovery">
+        <div class="disc">
+          <p>The Discovery Family of Networks</p>
+          <span>© 2023 Warner Bros. Discovery, Inc. or its subsidiaries and affiliates. All rights reserved.
+          </span>
+        </div>
+     
+          <div class="links">
+            <ul class="list">
+              <li><a class="a-color"href="https://corporate.discovery.com/contact/advertising/" target="_blank">
+                  Advertise</a></li>
+              <li>
+                <a   class="a-color" href="https://corporate.discovery.com/tracking-technologies-notice/#targeted" target="_blank">
+                  AdChoices</a>
+              </li>
+              <li><a  class="a-color" href="https://corporate.discovery.com/privacy-policy/" target="_blank">
+                  Privacy Notice</a>
+              </li>
+              <li>
+                <a  class="a-color"href="https://corporate.discovery.com/visitor-agreement/" target="_blank">
+                  Visitor Agreement
+                </a>
+              </li>
+            </ul>
+           
+              <div class="not">
+                <a  class="a-color" href="https://corporate.discovery.com/privacy-policy/#cappi" target="_blank" data-svelte-h="svelte-1kxgxn2">
+                    California Privacy Notice 
+                </a>
+                <p class="a-color">Do Not Sell or Share My Personal Information</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </footer>
+</body>
 
-    </footer>
-  </body>
 </html>

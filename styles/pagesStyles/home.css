@@ -26,7 +26,7 @@ ul.nav {
     display: flex; 
     gap: 30px;
 }
- li {
+ nav li {
     white-space: nowrap;
     font-size: 15px;
     line-height: 16px;
@@ -448,9 +448,33 @@ h5{
 /* footer */
 
  .footer{
-    height: 100px;
+    min-height: min-content;
     background-color: var(--fd-secondary);
+    padding: 16px;
 }  
+
+.socials-container{
+    display: flex;
+    max-width: 1280px;
+    justify-content: space-between;
+     gap: 16px;
+    /* flex-flow: column nowrap;*/
+    margin: auto;   
+}
+.social-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.top-social{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: start;
+    gap: 16px;  
+}
+
 .social-media{
     display: flex;
     flex-flow: row wrap;
@@ -459,9 +483,65 @@ h5{
     gap: 16px;
 }
 
-
-
-
-.social-media,.top i{
+.top{
+    font-family: var(--fonts-heading);
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: flex;
+    gap: 10px;
+    padding: 8px;
     color: var(--fd-primary);
+}
+.media{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: start;
+    gap: 16px;
+}
+
+.discovery{
+    line-height: 14px;
+    font-size: 12px;
+    color: var(--fd-primary);
+    display: flex;
+    gap: 9px;
+    flex-flow: column nowrap;
+    width: calc((calc((min(100vw,1280px) - (((var(--n) - 1) * var(--gap)) + 
+    (2 * var(--margin)))) / var(--n)) * 6) + (var(--gap) * 5));
+    max-width: 100%;
+}
+.disc p{
+ font-weight: 700;
+ color: var(--fd-primary);
+}
+.disc:nth-child(1){
+    text-align: right;
+    font-weight: 400;
+    font-family: var(--fonts-base);
+    color: #bfbfbf;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.list{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: end;
+    gap: 16px;
+}
+
+.not{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 10px;
+    font-family: var(--fonts-base);
+    margin-top: -12px;
 }
